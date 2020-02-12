@@ -1,0 +1,34 @@
+Phase 2 model summary
+This document is meant to be a summary of the models used on the Phase 2 data. Provide the following details for EACH sub-challenge within “Summary-Phase2.txt”
+
+------------------------------
+Summary-Phase2-Sub-challenge-1
+------------------------------
+Provide information on model settings and parameters used:
+
+Same model created in phase 1 is used
+Chi-squared test based feature selection for top 500 features
+Filter out features based on correlation of 0.95
+Build a model using support vector machines - kernel='rbf',gamma='auto',decision_function_shape='ovr'
+
+------------------------------
+Summary-Phase2-Sub-challenge-2
+------------------------------
+Provide information on model settings and parameters used:
+
+Same model created in phase 1 is used
+Chi-squared test based feature selection for top 500 features
+Filter out features based on correlation of 0.95
+Build a model using neural networks - MLPClassifier(solver='lbfgs', alpha=1e-5,hidden_layer_sizes=(10, 8), random_state=0)
+
+------------------------------
+Summary-Phase2-Sub-challenge-3
+------------------------------
+Provide information on model settings and parameters used:
+
+
+Same model created in phase 1 is used
+Chi-squared test based feature selection for top 500 features
+Filter out features based on correlation of 0.95
+Build a model using support vector machines - kernel='rbf',gamma='auto',decision_function_shape='ovr'
+
